@@ -28,12 +28,12 @@ I'm doing this in eight weeks, from Oct 24 to Dec 20, 2026. The one hard deadlin
 - [ ] Run an I2C scanner and find the IMU at 0x68
 - [ ] Run motor and encoder tests
 - [ ] Charge the LiPo once, while watching it, on a hard surface
-- [ ] Onshape: Sketching and Part Studios courses, then model the motor
+- [ ] Onshape: Sketching and Part Studios courses, then import the JGB37-520 motor model from GrabCAD and check it against my calipers
 
 **Phase 2**
 - [ ] Wire the whole robot on the bench with jumper wires
 - [ ] Try the reference firmware and watch the wheels react to tilt
-- [ ] Onshape: Assemblies course, then model every part
+- [ ] Onshape: Assemblies course, then import or model every part
 
 **Phase 3**
 - [ ] Design the frame around my part models
