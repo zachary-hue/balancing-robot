@@ -28,12 +28,7 @@ All in mm, measured by me with calipers. Motor is the JGB37-520 (12 V, 110 RPM) 
 - So the mount needs the shaft hole in one place and the 6 holes on a 31 mm circle centered about 6.75 mm away from it.
 - The 3 other screws on the gearbox face hold the gearbox together. They are not mounting holes.
 
-## Still to measure
-
-- [ ] Battery: length, width, height
-- [ ] ESP32, motor driver, IMU, buck converter: length, width, mounting holes
-
-## Boards (measured Oct 28)
+## Boards
 
 | Part | Measurement | mm |
 |---|---|---|
@@ -45,8 +40,18 @@ All in mm, measured by me with calipers. Motor is the JGB37-520 (12 V, 110 RPM) 
 | Driver | Length | 20.16 |
 | Driver | Width | 20.35 |
 | Driver | Thickness with pins | 11.10 |
+| ESP32 | Length | 57 |
+| ESP32 | Width | 28.41 |
+| ESP32 | Thickness with pins | 13.05 |
+| ESP32 | Hole diameter (d) | 3.11 |
+| ESP32 | Hole center to center, along the long side (S) | 52 |
+| Buck | Length | 43.6 |
+| Buck | Width | 21.18 |
+| Buck | Height, board bottom to top of tallest capacitor (T) | 11.57 |
+| Buck | Hole diameter (d) | 3.11 |
+| Buck | Hole center to center, diagonal (S) | 34.6 |
 
-The driver has no mounting holes, so it gets clips or pegs. The IMU holes fit M3 screws.
+The driver has no mounting holes, so it gets clips or pegs. The IMU, ESP32, and buck converter holes all fit M3 screws.
 
 ## Battery (measured Oct 28)
 
@@ -59,4 +64,4 @@ The driver has no mounting holes, so it gets clips or pegs. The IMU holes fit M3
 
 Plan: strap slot goes across the middle of the pack, and I leave about 100 mm of room past the wire end for the wires and plug.
 
-Still to measure: ESP32, buck converter.
+Everything is measured now.
