@@ -1,4 +1,8 @@
-# Layout (v1, after measuring)
+# Layout (v2, after measuring)
+
+![TILT v2](../images/layout/tilt-v2-annotated.png)
+
+This is what TILT looks like now: about 26 cm tall, 90 mm wheels, and every part drawn at its measured size.
 
 Once every part was measured (see [measurements.md](measurements.md)), I checked the first render against the real numbers. A few things didn't work, so I changed them before starting the CAD. All sizes are in mm.
 
@@ -12,6 +16,7 @@ Once every part was measured (see [measurements.md](measurements.md)), I checked
 4. **ESP32 is bolted down on 25 mm M3 standoffs (not printed pegs).** It has M3 holes, and its pins point down. 25 mm leaves about 17 mm under the pins for jumper wires, and the plate has slots under both pin rows so wires can go straight down. The USB port faces the side so I can plug in my laptop.
 5. **IMU is in the center of the bottom plate, right over the axle.** That spot moves the least when the robot rocks, so the tilt readings are cleaner. Its X axis lines up with the axle. The buck converter moved to the back so it clears the standoffs and the motor mount tabs, and the bottom plate has slots for the motor wires.
 6. **Battery is centered over the axle.** It's smaller than the render showed (76 x 35.6 x 19.3), and centering it keeps the robot from being front- or back-heavy.
+7. **Taller: about 26 cm to the top of the battery (was about 19).** The standoffs between plates are 80 mm now instead of 57. A taller robot tips over more slowly, so the motors get more time to catch it, and it's more fun to watch. I didn't go taller than this because long standoffs start to wobble and it falls harder when I'm tuning. If Thinkbox doesn't have 80 mm standoffs, I can stack shorter M3 male-female ones.
 
 ## Front and side views
 
@@ -21,9 +26,10 @@ Once every part was measured (see [measurements.md](measurements.md)), I checked
 | --- | --- |
 | Axle | 45 |
 | Bottom plate | 69 to 72 |
-| Middle plate | 129 to 132 |
-| Top plate | 189 to 192 |
-| Standoffs between plates | 57 long, M3 |
+| Middle plate | 152 to 155 |
+| Top plate | 235 to 238 |
+| Top of the battery | about 257 |
+| Standoffs between plates | 80 long, M3 |
 
 Keeping it tall is on purpose. A taller robot falls over more slowly, which gives slow motors more time to react.
 
