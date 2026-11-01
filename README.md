@@ -27,7 +27,8 @@ I don't want to just follow a tutorial. I want to understand every part of this 
 - `PLAN.md`: the full plan and timeline
 - `log/`: one note for each work session, written as I go
 - `firmware/`: my own code
-- `cad/`: Onshape designs and exported files for 3D printing
+- `cad/`: Onshape designs and exported files for 3D printing, plus my [measurements](cad/measurements.md) and [layout](cad/layout.md)
+- `images/`: renders, layout drawings, and measurement photos
 - `pcb/`: my KiCad project
 
 ## Credit

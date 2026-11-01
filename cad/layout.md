@@ -1,0 +1,43 @@
+# Layout (v1, after measuring)
+
+Once every part was measured (see [measurements.md](measurements.md)), I checked the first render against the real numbers. A few things didn't work, so I changed them before starting the CAD. All sizes are in mm.
+
+![What changed](../images/layout/tilt-v1-changes.png)
+
+## What changed and why
+
+1. **Plates are 122 along the axle (were 136).** The wheels sit higher than the bottom plate, so they have to go outside its edge. At 136 wide, each wheel would only grip 6.6 mm of the motor shaft. At 122, it sits on the whole 12 mm flat, 3 mm past the plate edge.
+2. **Wheels are 90 (were 65).** The motors are rated 110 RPM at 12 V, but my battery is 7.4 V, so they only spin about 68 RPM. A bigger wheel goes farther per turn: top speed goes from about 0.23 m/s to 0.32 m/s, which gives the robot more room to catch itself when it tips. The motors have plenty of torque for this.
+3. **Motors sit level, with the offset pointing front to back.** The shaft is 6.75 off center on the motor face. If the offset pointed down, the motor would hit the bottom plate. Turned sideways, the body sits 6.75 behind the axle, with 6 mm of room under the plate and 27 mm off the ground.
+4. **ESP32 is bolted down on 25 mm M3 standoffs (not printed pegs).** It has M3 holes, and its pins point down. 25 mm leaves about 17 mm under the pins for jumper wires, and the plate has slots under both pin rows so wires can go straight down. The USB port faces the side so I can plug in my laptop.
+5. **IMU is in the center of the bottom plate, right over the axle.** That spot moves the least when the robot rocks, so the tilt readings are cleaner. Its X axis lines up with the axle. The buck converter moved to the back so it clears the standoffs and the motor mount tabs, and the bottom plate has slots for the motor wires.
+6. **Battery is centered over the axle.** It's smaller than the render showed (76 x 35.6 x 19.3), and centering it keeps the robot from being front- or back-heavy.
+
+## Front and side views
+
+![Front and side views](../images/layout/layout-front-side.png)
+
+| | Height (mm) |
+| --- | --- |
+| Axle | 45 |
+| Bottom plate | 69 to 72 |
+| Middle plate | 129 to 132 |
+| Top plate | 189 to 192 |
+| Standoffs between plates | 57 long, M3 |
+
+Keeping it tall is on purpose. A taller robot falls over more slowly, which gives slow motors more time to react.
+
+## Each plate from above
+
+![Plates from above](../images/layout/layout-plates.png)
+
+- **Bottom:** IMU, motor driver (clips, no holes), buck converter, 2 motor mount tabs, wire slots
+- **Middle:** ESP32, honeycomb holes, wire slots under the pins
+- **Top:** battery with strap slots, XT60, power switch, TILT logo and light bar at the front
+- Every plate: 4 standoff holes at (±48, ±32) and a row of spare M3 holes along the back edge
+
+## Still to do
+
+- [ ] Measure hole to hole along the short side on the ESP32 and the buck converter, so all their holes are placed exactly
+- [ ] Pick an O-ring or a TPU tire that fits a 90 mm wheel
+- [ ] Build it in Onshape, starting with the motor mount

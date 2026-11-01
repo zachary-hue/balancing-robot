@@ -9,3 +9,6 @@ fp-info-cache
 
 # Arduino and build output
 build/
+
+# notes for moving between Claude chats, not part of the project
+docs/
