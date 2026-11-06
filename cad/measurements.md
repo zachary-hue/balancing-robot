@@ -63,9 +63,12 @@ The driver has no mounting holes, so it gets clips or pegs. The IMU holes fit M3
 | Width (W) | 28.41 |
 | Thickness with pins (T) | 13.05 |
 | Hole diameter (d) | 3.11 |
-| Hole center to center (S) | 52 |
+| Hole center to center, long side (S) | 52.13 |
+| Hole center to center, short side (Y) | 23.17 |
 
-The holes fit M3 screws.
+![ESP32 short side](../images/measurements/esp32-short-side.jpg)
+
+4 holes in a 52.13 x 23.17 rectangle. That puts each hole about 2.4 mm in from the ends and 2.6 mm in from the sides, so the pattern is centered on the board. The holes fit M3 screws.
 
 ## Buck converter
 
@@ -80,8 +83,16 @@ The holes fit M3 screws.
 | Height, board bottom to top of tallest capacitor (T) | 11.57 |
 | Hole diameter (d) | 3.11 |
 | Hole center to center, diagonal (S) | 34.6 |
+| Top hole: long side edge to center (a1) | 2.61 |
+| Top hole: end edge to center (b1) | 7.00 |
+| Bottom hole: long side edge to center (a2) | 2.85 |
+| Bottom hole: end edge to center (b2) | 4.72 |
+
+![Buck converter hole positions](../images/measurements/buck-short-side.jpg)
 
 The two holes fit M3 screws, so it can be bolted down.
+
+From the edge numbers, the holes are 15.72 apart across the board and 31.88 apart along it. That makes the diagonal 35.5, but I measured 34.6 directly, so something is off by about 1 mm (probably the along-the-board number). To be safe, the plate gets short slots for these two screws instead of round holes, so either number fits.
 
 ## Battery
 

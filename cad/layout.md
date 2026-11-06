@@ -44,6 +44,6 @@ Keeping it tall is on purpose. A taller robot falls over more slowly, which give
 
 ## Still to do
 
-- [ ] Measure hole to hole along the short side on the ESP32 and the buck converter, so all their holes are placed exactly
+- [x] Measure hole to hole along the short side on the ESP32 and the buck converter (ESP32: 52.13 x 23.17, buck: see measurements.md, gets slots)
 - [ ] Pick an O-ring or a TPU tire that fits a 90 mm wheel
 - [ ] Build it in Onshape, starting with the motor mount
