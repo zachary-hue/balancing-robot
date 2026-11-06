@@ -28,7 +28,7 @@ I don't want to just follow a tutorial. I want to understand every part of this 
 - `log/`: one note for each work session, written as I go
 - `firmware/`: my own code
 - `cad/`: Onshape designs and exported files for 3D printing, plus my [measurements](cad/measurements.md) and [layout](cad/layout.md)
-- `images/`: renders, layout drawings, and measurement photos
+- `images/`: `current-design/` is what I'm building now, `measurements/` has photos of every part I measured, and `old-designs/` has earlier ideas I moved away from
 - `pcb/`: my KiCad project
 
 ## Credit

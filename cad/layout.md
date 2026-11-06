@@ -1,12 +1,12 @@
 # Layout (v2, after measuring)
 
-![TILT v2](../images/layout/tilt-v2-annotated.png)
+![TILT v2](../images/current-design/tilt-v2-annotated.png)
 
 This is what TILT looks like now: about 26 cm tall, 90 mm wheels, and every part drawn at its measured size.
 
 Once every part was measured (see [measurements.md](measurements.md)), I checked the first render against the real numbers. A few things didn't work, so I changed them before starting the CAD. All sizes are in mm.
 
-![What changed](../images/layout/tilt-v1-changes.png)
+![What changed](../images/old-designs/tilt-v1-changes.png)
 
 ## What changed and why
 
@@ -20,7 +20,7 @@ Once every part was measured (see [measurements.md](measurements.md)), I checked
 
 ## Front and side views
 
-![Front and side views](../images/layout/layout-front-side.png)
+![Front and side views](../images/current-design/layout-front-side.png)
 
 | | Height (mm) |
 | --- | --- |
@@ -35,12 +35,12 @@ Keeping it tall is on purpose. A taller robot falls over more slowly, which give
 
 ## Each plate from above
 
-![Plates from above](../images/layout/layout-plates.png)
+![Plates from above](../images/current-design/layout-plates.png)
 
 - **Bottom:** IMU, motor driver (clips, no holes), buck converter, 2 motor mount tabs, wire slots
-- **Middle:** ESP32, honeycomb holes, wire slots under the pins
+- **Middle:** ESP32 (4 holes, 52.13 x 23.17), honeycomb holes, two 40 x 5 wire slots under the pin rows (12.7 from center). I first planned 46 long, but that ran into the ESP32's standoffs.
 - **Top:** battery with strap slots, XT60, power switch, TILT logo and light bar at the front
-- Every plate: 4 standoff holes at (±48, ±32) and a row of spare M3 holes along the back edge
+- Every plate: 4 standoff holes at (±48, ±32), a row of spare M3 holes along the back edge, and the same outline: 14 mm corner chamfers rounded with a 13 mm fillet, a 1 mm fillet on the top edge and a 0.6 mm chamfer on the bottom edge
 
 ## Still to do
 
