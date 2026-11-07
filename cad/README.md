@@ -1,15 +1,17 @@
 # cad
 
-My Onshape designs and the files I export for 3D printing.
+My Onshape parts and what's been printed. The design behind them (sizes, layout, and why) is in [../design/](../design/).
 
-- [measurements.md](measurements.md): every part, measured by me with calipers, with photos
-- [layout.md](layout.md): where everything goes, drawn to scale, and what I changed after measuring
+Onshape document: TILT (link to add)
 
-Planned parts:
-- [ ] Motor model from GrabCAD, checked against my own measurements
-- [ ] Models of the other parts (ESP32, driver, IMU, buck converter, battery): find them online or make them myself
-- [ ] Wheels (90 mm), designed from scratch
-- [ ] Frame v1, designed from scratch
-- [ ] Frame v2, built around the PCB
+| Part | Designed | Printed | Notes |
+| --- | --- | --- | --- |
+| Motor fit-test plate | yes | yes | Fits perfectly. Proves the hole pattern and the 6.75 mm shaft offset. |
+| Middle plate | yes | yes | ESP32 holes, wire slots, honeycomb |
+| Bottom plate | no | no | IMU, buck converter, driver, motor mount tabs |
+| Top plate | no | no | Battery strap slots, XT60, switch, TILT logo |
+| Motor mounts (x2) | no | no | Same hole pattern as the fit-test plate, plus a tab |
+| Wheels (x2, 90 mm) | no | no | D-shaped hole for the shaft, set screw |
+| Frame v2 | no | no | Rebuilt around the PCB later |
 
-Link to my Onshape document: _to add_
+Print settings I use: PLA, 0.2 mm layers, 3 walls, 20% infill, no supports.
