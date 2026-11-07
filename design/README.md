@@ -37,13 +37,29 @@ Keeping it tall is on purpose. A taller robot falls over more slowly, which give
 
 ![Plates from above](images/layout-plates.png)
 
-- **Bottom:** IMU, motor driver (clips, no holes), buck converter, 2 motor mount tabs, wire slots
+- **Bottom:** IMU, motor driver (foam tape, no holes), buck converter, 2 motor mount tabs, wire slots, raised front arrow
 - **Middle:** ESP32 (4 holes, 52.13 x 23.17), honeycomb holes, two 40 x 5 wire slots under the pin rows (12.7 from center). I first planned 46 long, but that ran into the ESP32's standoffs.
-- **Top:** battery with strap slots, XT60, power switch, TILT logo and light bar at the front
+- **Top:** battery with strap slots, a hole for the battery wires, raised TILT logo and light bar at the front (no switch for now, I just unplug the XT60)
 - Every plate: 4 standoff holes at (±48, ±32), a row of spare M3 holes along the back edge, and the same outline: 14 mm corner chamfers rounded with a 13 mm fillet, a 1 mm fillet on the top edge and a 0.6 mm chamfer on the bottom edge
+
+## Part plans
+
+Bottom plate, seen from above with the front at the top. Dotted boxes are where the boards sit.
+
+![Bottom plate plan](images/parts/bottom-plate-plan.png)
+
+How a motor attaches: an L-shaped mount bolts to the gearbox face, and its tab screws up into the bottom plate.
+
+![Motor mount side view](images/parts/motor-mount-side-view.png)
+
+![Motor mount 3D](images/parts/motor-mount-3d.png)
+
+**Wheels:** 84 mm plastic wheel with a groove around the edge. A tire sits in the groove and brings it to 90 mm. The shaft hole is D-shaped to match the flat on the motor shaft.
+
+**Colors and materials:** plates in black PLA with the raised logo, light bar and arrow in a second color. Wheels and motor mounts in PETG because they take the hits when it falls.
 
 ## Still to do
 
 - [x] Measure hole to hole along the short side on the ESP32 and the buck converter (ESP32: 52.13 x 23.17, buck: see measurements.md, gets slots)
-- [ ] Pick an O-ring or a TPU tire that fits a 90 mm wheel
-- [ ] Build it in Onshape, starting with the motor mount
+- [x] Tire plan: groove in the wheel, TPU tire or bike inner tube
+- [x] Build it in Onshape (all parts designed Nov 7)

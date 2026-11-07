@@ -4,3 +4,4 @@ One note for each work session, newest at the bottom. Screenshots for each day a
 
 - [Oct 24: motors tested, buck converter set to 5.0 V](2026-10-24.md)
 - [Nov 6: first Onshape parts and first prints](2026-11-06.md)
+- [Nov 7: designed the top plate, bottom plate, motor mount and wheel, and printed them all](2026-11-07.md)

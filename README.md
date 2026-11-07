@@ -9,7 +9,8 @@ Building a two-wheeled self-balancing robot from scratch: ESP32, my own firmware
 - [x] Every part tested and measured
 - [x] Design locked in (about 26 cm tall, 90 mm wheels)
 - [x] First parts printed: motor fit-test plate (fits perfectly) and the middle plate
-- [ ] Bottom plate, top plate, motor mounts, wheels
+- [x] Every frame part designed: top plate (two-color TILT logo), bottom plate, motor mounts, wheels
+- [ ] Frame printed and put together (printing now)
 - [ ] Firmware
 - [ ] Custom PCB
 

@@ -2,21 +2,24 @@
 
 Goal: TILT balancing on its own by early December, before finals (last final is Dec 16). About 10 to 12 hours a week.
 
-## Where I am (Nov 6)
+## Where I am (Nov 7)
 
 - [x] Every part tested (motors, encoders, buck converter set to 5.0 V)
 - [x] Every part measured with calipers ([design/measurements.md](design/measurements.md))
 - [x] Design locked in ([design/](design/))
 - [x] Learned Onshape on the real parts: motor fit-test plate and middle plate, both printed
+- [x] Designed every frame part: top plate, bottom plate, motor mount, wheel. All printing, pick up Monday ([log](log/2026-11-07.md))
 
 ## Next up
 
 **Frame (Onshape and printing)**
-- [ ] Bottom plate: IMU, buck converter, driver clips, motor mount tabs, wire slots
-- [ ] Motor mounts: same hole pattern as the fit-test plate, plus a tab that bolts to the bottom plate
-- [ ] Wheels: 90 mm, D-shaped hole, set screw, find a tire or print one in TPU
-- [ ] Top plate: battery strap slots, XT60, switch, TILT logo
-- [ ] Get 8 M3 standoffs, 80 mm long (or stack 40 mm ones)
+- [x] Bottom plate: IMU, buck converter, motor mount holes, wire slots, front arrow
+- [x] Motor mounts: same hole pattern as the fit-test plate, plus a tab that screws to the bottom plate
+- [x] Wheels: 84 mm with a tire groove, 5 rim holes, D-shaped hole
+- [x] Top plate: battery strap slots, wire hole, TILT logo and light bar
+- [ ] Pick up the prints and test the fits (motor in mount, wheel on shaft)
+- [ ] Tires: TPU if Thinkbox has it, otherwise bike inner tube
+- [ ] Get hardware: 8 M3 standoffs (80 mm, or stack shorter ones), M3 x 6 screws, foam tape or mini breadboard, velcro strap
 - [ ] Assemble the frame
 
 **Firmware (VS Code and PlatformIO)**
