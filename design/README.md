@@ -54,6 +54,10 @@ How a motor attaches: an L-shaped mount bolts to the gearbox face, and its tab s
 
 ![Motor mount 3D](images/parts/motor-mount-3d.png)
 
+Top plate up close: the TILT logo reads right when you stand in front of the robot.
+
+![Top plate close-up](images/top-plate-closeup.png)
+
 **Wheels:** 84 mm plastic wheel with a groove around the edge. A tire sits in the groove and brings it to 90 mm. The shaft hole is D-shaped to match the flat on the motor shaft.
 
 **Colors and materials:** plates in black PLA with the raised logo, light bar and arrow in a second color. Wheels and motor mounts in PETG because they take the hits when it falls.
